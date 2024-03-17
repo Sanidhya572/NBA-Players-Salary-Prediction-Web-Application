@@ -2,10 +2,15 @@
 
 /* Header */
 .stApp h1 {
+
     color: #ffc107; /* Yellow color */
     font-size: 36px;
     font-weight: bold;
-
+    text-align: center; /* Center align the heading */
+    border: 2px solid white; /* White border */
+    padding: 20px; /* Padding */
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 20px; /* Add some space below the heading */
 }
 
 /* Sidebar */
@@ -32,4 +37,12 @@
 .stText h2 {
     color: #333;
     font-size: 24px;
+}
+
+/* Center the image */
+.centered-image {
+     display: block;
+     margin-left: auto;
+    margin-right: auto;
+
 }
